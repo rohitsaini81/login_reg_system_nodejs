@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>User Homepage</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+
+    <style>
+        .InterfaceButton {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .btn-m {
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 1em;
+            background-color: #f8f9fa;
+        }
+
+        nav a {
+            margin: 0 1em;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .logo {
+            width: 30px;
+            height: 30px;
+        }
+
+        .logins {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: flex-end;
+        }
+
+        .post-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .post {
+            width: 300px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        .post img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .post h2 {
+            margin-top: 0;
+        }
+
+        .post p {
+            margin-bottom: 0;
+        }
+
+        .text_center {
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <div class="InterfaceButton">
+            <button onclick="window.location.href='/api_ai/services'" class="btn-m">Use our Ai Services</button>
+        </div>
+        <div class="logins">
+            <img src="/login.png" alt="@" class="logo">
+            <a href="/logout">Logout</a>
+        </div>
+    </nav>
+    <div class="text_center">
+        <h1>Welcome to your User Homepage!</h1>
+        <p>Here, you can access your personalized content and perform various actions.</p>
+
+    </div>
+
+    <div class="post-container">
+        <div class="post">
+            <img src="path_to_image1.jpg" alt="Post 1">
+            <h2>Post 1</h2>
+            <p>This is the first post.</p>
+        </div>
+
+        <div class="post">
+            <img src="path_to_image2.jpg" alt="Post 2">
+            <h2>Post 2</h2>
+            <p>This is the second post.</p>
+        </div>
+
+        <div class="post">
+            <img src="path_to_image3.jpg" alt="Post 3">
+            <h2>Post 3</h2>
+            <p>This is the third post.</p>
+        </div>
+    </div>
+</body>
+
+</html>
