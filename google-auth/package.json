@@ -9,13 +9,19 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "cookie": "^1.0.2",
+    "jsonwebtoken": "^9.0.2",
     "next": "16.1.6",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
+    "@types/passport": "^1.0.17",
+    "@types/passport-google-oauth20": "^2.0.16",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
