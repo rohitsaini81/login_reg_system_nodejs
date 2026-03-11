@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "sub": "105257548228413078618",
+      "email": "jw2055422@gmail.com",
+      "name": "John Walker",
+      "picture": "https://lh3.googleusercontent.com/a/ACg8ocJqVYCA1OKGHX9l-ZCJvX-PDi_Hx0OLRYWwLwFJ1hJ1sb_SKw=s96-c"
+    }
+  ],
+  "signups": [
+    {
+      "sub": "105257548228413078618",
+      "email": "jw2055422@gmail.com",
+      "name": "John Walker",
+      "picture": "https://lh3.googleusercontent.com/a/ACg8ocJqVYCA1OKGHX9l-ZCJvX-PDi_Hx0OLRYWwLwFJ1hJ1sb_SKw=s96-c",
+      "at": "2026-03-11T04:56:43.982Z"
+    }
+  ],
+  "logins": []
+}
